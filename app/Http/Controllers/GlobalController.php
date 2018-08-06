@@ -9,7 +9,7 @@ class GlobalController extends Controller
     //
     public function index()
     {
-        return view('welcome');
+        return view('my');
     }
 
     public function profile()

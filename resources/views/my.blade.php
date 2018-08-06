@@ -1,8 +1,11 @@
-<html>
-<title>This is my first laravel blade template</title>
-<body>
-    <h1>Welcome to my first blad page</h1>
-    <a href="/profile">Go to Profile</a>
-    <a href="/abc">Abc</a>
-</body>
-</html>
+@extends('layout')
+
+
+@section('title')
+    welcome page
+@endsection
+
+@section('content')
+<h2>welcome page</h2>
+go to <a href="/profile">profile</a> Page
+@endsection
