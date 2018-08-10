@@ -12,7 +12,8 @@
 */
 
 Route::get('/','GlobalController@index');
-Route::get('/profile','GlobalController@profile');
+Route::get('/profile/{id?}','GlobalController@profile');
+Route::get('/my','GlobalController@mypage');
 /*Route::get('/', function () {
     //return view('welcome');
     return view('my');
