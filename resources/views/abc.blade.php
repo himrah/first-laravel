@@ -2,4 +2,7 @@
     <title>My page</title>
     <h1>My page</h1>
     <a href="/">Home</a>
-</html>
+    {{ Form::open(array('url'=>'foo')) }}
+    {{Form::text('username')}}
+    {{Form::close()}}
+    </html>

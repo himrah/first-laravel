@@ -29,4 +29,7 @@ class GlobalController extends Controller
     {
         return view('abc');
     }
+    public function send(){
+        return view('rs');
+    }
 }

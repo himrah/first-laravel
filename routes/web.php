@@ -14,6 +14,7 @@
 Route::get('/','GlobalController@index');
 Route::get('/profile/{id?}','GlobalController@profile');
 Route::get('/my','GlobalController@mypage');
+Route::post('/p','GlobalController@send');
 /*Route::get('/', function () {
     //return view('welcome');
     return view('my');
