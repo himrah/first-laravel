@@ -28,3 +28,8 @@ Route::get('/abc',function(){
     return view('abc');
 });*/
 
+Route::get('aaa',function(){
+    return view('form2');
+});
+Route::post('fff','form1@fom');
+

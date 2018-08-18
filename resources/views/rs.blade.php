@@ -7,5 +7,5 @@
 
 @section('content')
     <h2>POST</h2>
-
+    <h2>{{$user}}</h2>
 @endsection
