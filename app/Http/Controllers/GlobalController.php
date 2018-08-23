@@ -31,6 +31,8 @@ class GlobalController extends Controller
     }
     public function send(){
         $user = request('username');
+
+        
         return view('rs')->with('user',$user);
     }
 }

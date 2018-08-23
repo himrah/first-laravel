@@ -16,7 +16,7 @@
 
             
 
-            {{Form::open(array('url' => 'foo')) }}
+            {{Form::open(array('url' => 'fff')) }}
 
              {{Form::text('username')}}<br><br><br>
 

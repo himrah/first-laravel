@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class form1 extends Controller
 {
-    function fom(
-
-        
-    )
+    function fom()
+    {
+        view('form2');
+    }
 }
