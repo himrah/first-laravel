@@ -33,3 +33,7 @@ Route::get('aaa',function(){
 });
 Route::post('fff','form1@fom');
 
+
+Route::get('/form',function(){
+    return view('fom');
+ });

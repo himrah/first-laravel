@@ -12,6 +12,7 @@ go to <a href="/my">My</a> Page
 <h2>Data</h2>
 @foreach($data as $d)
     <li>{{$d["name"]}}</li>
+    <li>{{$d["Roll"]}}</li>
 @endforeach 
 
 @endsection
